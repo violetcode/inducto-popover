@@ -1,0 +1,26 @@
+#inducto_popover {
+	position: absolute;
+	background: #F2F2F2;
+	padding: 15px;
+	box-shadow: -1px 1px 2px #B0B0B0;
+	z-index: 10;
+}
+
+#inducto_popover h1 {
+	color: #EF6532;
+	clear:both;
+}
+
+#inducto_popover a.button {
+	background: #FFF;
+	color: #EF6532;
+	border: 1px solid #EF6532;
+	font-weight: bold;
+	width: 100%;
+	padding: 10px;
+}
+
+#inducto_close {
+	float:right;
+	padding:5px;
+}
