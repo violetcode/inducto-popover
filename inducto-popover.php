@@ -5,7 +5,7 @@
  */
 /*
 Plugin Name: Inducto Popover
-Description: Popover thingy
+Description: Popover plugin for Inductotherm
 Version: 1.0
 Author URI: http://twelve23.com
 */
@@ -60,10 +60,9 @@ function inductopop() {
 	if(!isset($_COOKIE['inductopop_closed'])){
 ?>
 	<div id="inducto_popover">
-		<a href="#" id="inducto_close">x</a>
+		<div id="inducto_close">x</div>
 		<h1><?php echo get_option("popup_title");?></h1>
 		<p><?php echo get_option("popup_description");?></p>
-		<a class="button" href="">Go to our Company Index Now</a>
 	</div>
 <?php	
 	}
